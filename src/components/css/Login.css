@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.loginClass{
+    background-image: linear-gradient(45deg, rgb(41, 99, 175), rgb(95, 111, 182));
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.formClass{
+    background-color: rgb(246, 244, 247);
+    border-radius: 10px;
+    width: 500px;
+    margin: 20px !important;
+    padding: 20px;
+}
+.btn{
+    background-color: rgb(41, 99, 175);
+    color: white;
+    font-weight: 500;
+}
+.col{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.labelClass{
+    width: 180px;
+    text-align: start;
+    font-weight: 500;
+}
+span{
+    width: 15px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.iconText{
+    margin-bottom: 0px !important;
+    padding-left: 10px;
+}
+.iconReal{
+    color: rgb(5, 111, 250);
+}
+.buttonClass{
+    border: none;
+    background-color: transparent;
+}
